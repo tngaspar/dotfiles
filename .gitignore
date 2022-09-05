@@ -1,0 +1,10 @@
+/*
+!.gitignore
+!.Xresources
+
+!.config/
+.config/*
+
+!.config/alacritty/
+!.config/i3/
+!.config/polybar/
