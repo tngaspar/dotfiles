@@ -199,6 +199,14 @@ exec xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5 # decrease screen brightness
 
+# multimonitor setup
+# TODO: different dpi for each monitor (~/.Xresources)
+# TODO: move bar number to the corresponding monitor only
+bindsym $mod+p move workspace to output right
+# automatically switch monitor setup when connecting/disconnecting by HDMI
+exec autorandr --change --default laptop
+
+
+
 # TODO: flashing when opening in new tab ex: gh browse
 # TODO: drag to resize
-# TODO: multi monitor support with arandr and autorandr
