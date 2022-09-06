@@ -188,11 +188,12 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # TODO: drag to resize
 
-# TODO: set us, pt keyboard
-
 # set key replacements
 exec "setxkbmap -option 'caps:super, shift:both_capslock_cancel' -layout us,pt"
 
 # remove title from windows
 default_border pixel 2
 default_floating_border pixel 2
+
+# enable touchpoint tap
+exec xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1
