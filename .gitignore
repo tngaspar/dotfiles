@@ -1,6 +1,7 @@
 /*
 !.gitignore
 !.Xresources
+!.fehbg
 
 !.config/
 .config/*

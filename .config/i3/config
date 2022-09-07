@@ -229,3 +229,8 @@ mode "$mode_system" {
 }
 
 bindsym $mod+End mode "$mode_system"
+
+
+# set wallpaper 
+# on new setup add image to .wallpaper directory and modify .fehbg  
+exec --no-startup-id exec bash $HOME/.fehbg
