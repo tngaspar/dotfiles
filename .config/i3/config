@@ -211,7 +211,7 @@ exec autorandr --change --default laptop
 # TODO: turn off button
 # TODO: add lock and suspend when closing lid
 # TODO: better lockscreen
-set $Locker i3lock && sleep 1
+set $Locker i3lock -t -i $HOME/.lockscreen/636086.png && sleep 1
 
 set $mode_system (l) lock, (s) suspend, (Shift+l) logout, (Shift+r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
@@ -229,7 +229,7 @@ mode "$mode_system" {
 }
 
 bindsym $mod+End mode "$mode_system"
-
+bindsym $mod+Home exec --no-startup-id $Locker
 
 # set wallpaper 
 # on new setup add image to .wallpaper directory and modify .fehbg  
