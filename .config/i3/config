@@ -234,3 +234,8 @@ bindsym $mod+Home exec --no-startup-id $Locker
 # set wallpaper 
 # on new setup add image to .wallpaper directory and modify .fehbg  
 exec --no-startup-id exec bash $HOME/.fehbg
+
+# picom
+exec picom --experimental-backends &
+
+#TODO get flatpak on dmenu
