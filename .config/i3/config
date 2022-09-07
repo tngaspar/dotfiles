@@ -201,12 +201,11 @@ bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5 # decrease screen 
 
 # multimonitor setup
 # TODO: different dpi for each monitor (~/.Xresources)
-# TODO: move bar number to the corresponding monitor only
+# TODO: autoreload polybar when connecting new screen
 bindsym $mod+p move workspace to output right
 # automatically switch monitor setup when connecting/disconnecting by HDMI
 exec autorandr --change --default laptop
 
 
 
-# TODO: flashing when opening in new tab ex: gh browse
-# TODO: drag to resize
+# TODO: turn off button
