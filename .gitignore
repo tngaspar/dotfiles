@@ -3,6 +3,10 @@
 !.Xresources
 !.fehbg
 
+!.wallpapers/
+.wallpapers/*
+!.wallpapers/636086.jpg
+
 !.config/
 .config/*
 
