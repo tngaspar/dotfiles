@@ -7,6 +7,10 @@
 .wallpapers/*
 !.wallpapers/636086.jpg
 
+!.lockscreen/
+.lockscreen/*
+!.lockscreen/636086.png
+
 !.config/
 .config/*
 
