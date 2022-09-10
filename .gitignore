@@ -2,6 +2,8 @@
 !.gitignore
 !.Xresources
 !.fehbg
+!LICENSE
+!README.md
 
 !.wallpapers/
 .wallpapers/*
