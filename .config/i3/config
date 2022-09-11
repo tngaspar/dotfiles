@@ -188,7 +188,7 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # set key replacements
-exec "setxkbmap -option 'caps:super, shift:both_capslock_cancel' -layout us,pt"
+exec_always "setxkbmap -option 'caps:super, shift:both_capslock_cancel' -layout us,pt"
 
 # remove title from windows
 default_border pixel 2
@@ -234,14 +234,30 @@ bindsym $mod+Home exec --no-startup-id $Locker
 
 # set wallpaper 
 # on new setup add image to .wallpaper directory and modify .fehbg  
-exec --no-startup-id exec bash $HOME/.fehbg
+exec_always --no-startup-id exec bash $HOME/.fehbg
 
 # picom
 exec_always --no-startup-id picom --experimental-backends
 
 # start dmenu with more options (including flatpak)
 #bindsym $mod+d exec --no-startup-id j4-dmenu-desktop
+
 # A more modern dmenu replacement is rofi:
 bindsym $mod+d exec "rofi -modi drun,run -show drun"
 # window switcher
 bindsym $mod+i exec "rofi -modi drun,run -show window"
+
+# Ulauncher
+#exec --no-startup-id exec ulauncher --hide-window
+
+
+# flameshot for print screens
+# icon in tray 
+# exec --no-startup-id flameshot
+# print screen
+bindsym Print exec flameshot gui
+bindsym Shift+Print exec flameshot screen -p $HOME/Pictures
+# BUG: full print not working on second monitor when more than one display available
+
+# add notifications with dunst
+# notify-send test
