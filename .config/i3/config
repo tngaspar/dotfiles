@@ -188,7 +188,7 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # set key replacements
-exec_always "setxkbmap -option 'caps:super, shift:both_capslock_cancel' -layout us,pt"
+exec_always "setxkbmap -option 'caps:super, shift:both_capslock' -layout us,pt"
 
 # remove title from windows
 default_border pixel 2
