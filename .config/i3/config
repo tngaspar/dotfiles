@@ -261,4 +261,4 @@ bindsym Shift+Print exec flameshot screen -p $HOME/Pictures
 # notify-send test
 
 # low battery notification
-exec --no-startup-id i3-battery-popup -n -l 96
+exec --no-startup-id i3-battery-popup -n -l 10
