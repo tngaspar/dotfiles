@@ -252,17 +252,13 @@ bindsym $mod+d exec "rofi -modi drun,run -show drun"
 # window switcher
 bindsym $mod+i exec "rofi -modi drun,run -show window"
 
-# Ulauncher
-#exec --no-startup-id exec ulauncher --hide-window
-
-
 # flameshot for print screens
-# icon in tray 
-# exec --no-startup-id flameshot
-# print screen
 bindsym Print exec flameshot gui
 bindsym Shift+Print exec flameshot screen -p $HOME/Pictures
 # BUG: full print not working on second monitor when more than one display available
 
 # add notifications with dunst
 # notify-send test
+
+# low battery notification
+exec --no-startup-id i3-battery-popup -n -l 96
