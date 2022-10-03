@@ -14,3 +14,6 @@ Some modules on the polybar config have variables names corresponding to adapter
 * **Picom** (compositor)
 * **Feh** (background)
 * **Autorandr** (multi-display configuration)
+* **ranger** terminal file manager
+* **blueman** bluetooth configuration
+* **flameshot** screen shot software
