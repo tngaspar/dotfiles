@@ -18,8 +18,8 @@ Some modules on the polybar config have variables names corresponding to adapter
 * **blueman** bluetooth configuration
 * **flameshot** screencapture software
 
-## DE preview
+## Preview
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/43268598/195078916-76d5f228-4e90-4f6e-a931-83ece2cfcc7b.png" width=80% />
+<img src="https://user-images.githubusercontent.com/43268598/195078916-76d5f228-4e90-4f6e-a931-83ece2cfcc7b.png" width=90% />
 </p>
