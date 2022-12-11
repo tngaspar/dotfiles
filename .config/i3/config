@@ -211,6 +211,9 @@ exec xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1
 # light controls
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5 # decrease screen brightness
+# light controls with mod key
+bindsym $mod+F6 exec --no-startup-id light -A 5 # increase screen brightness
+bindsym $mod+F5 exec --no-startup-id light -U 5 # decrease screen brightness
 
 # multimonitor setup
 # TODO: different dpi for each monitor (~/.Xresources)
