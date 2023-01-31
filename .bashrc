@@ -63,3 +63,5 @@ source ~/.bash-git-prompt/gitprompt.sh
 
 # Default editor
 export EDITOR='/usr/bin/nvim'
+
+eval "$(thefuck --alias)"
