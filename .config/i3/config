@@ -200,6 +200,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # set key replacements
 exec_always "setxkbmap -option 'caps:super, shift:both_capslock' -layout us,pt"
+bindsym $mod+u exec xdotool key Shift_L+Shift_R
 
 # remove title from windows
 default_border pixel 2
@@ -272,3 +273,9 @@ bindsym Shift+Print exec flameshot screen -p $HOME/Pictures
 
 # low battery notification
 exec --no-startup-id i3-battery-popup -l 10
+
+# authentication agent
+exec --no-startup-id lxpolkit
+
+# add gnome-keyrings to i3
+#exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
