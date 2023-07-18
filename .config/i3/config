@@ -253,7 +253,8 @@ bindsym $mod+Home exec --no-startup-id $Locker
 exec_always --no-startup-id exec bash $HOME/.fehbg
 
 # picom
-exec_always --no-startup-id picom --experimental-backends
+exec_always --no-startup-id picom 
+#--experimental-backends
 
 # start dmenu with more options (including flatpak)
 #bindsym $mod+d exec --no-startup-id j4-dmenu-desktop
