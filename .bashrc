@@ -65,3 +65,5 @@ source ~/.bash-git-prompt/gitprompt.sh
 export EDITOR='/usr/bin/nvim'
 
 eval "$(thefuck --alias)"
+
+export PATH="/home/tiago/.detaspace/bin:$PATH"
