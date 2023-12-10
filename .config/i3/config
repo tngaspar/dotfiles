@@ -206,6 +206,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # set key replacements
 exec_always "setxkbmap -option 'caps:super, shift:both_capslock' -layout us,pt"
 bindsym $mod+u exec xdotool key Shift_L+Shift_R
+bindsym Alt_R exec xdotool key Shift_L+Shift_R
+
 
 # remove title from windows
 default_border pixel 2
