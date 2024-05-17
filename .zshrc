@@ -100,5 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+
 
 # bindkey '^I' autosuggest-accept
