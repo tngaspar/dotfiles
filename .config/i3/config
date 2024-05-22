@@ -211,7 +211,7 @@ bindsym Alt_R exec xdotool key Shift_L+Shift_R
 
 
 # remove title from windows
-default_border pixel 2
+default_border pixel 1
 default_floating_border pixel 2
 
 # enable touchpoint tap
